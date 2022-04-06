@@ -1,0 +1,97 @@
+
+header h5 {
+  font-size: 20px;
+  color: #fff;
+}
+header h6 {
+  font-size: 15px;
+  color: #fff;
+  transition: 0.4s;
+}
+header h6:hover {
+  color: #faa21b;
+  text-decoration: none;
+}
+header a {
+  text-decoration: none;
+}
+header img {
+  width: 7%;
+  padding: 10px 0;
+  cursor: pointer;
+}
+header .navbar-collapse {
+  flex-grow: 0 !important;
+}
+header .navbar {
+  background-color: #474747;
+}
+header .form-control {
+  /* outline: black!important; */
+  width: 400px !important;
+  border: black solid 1px !important;
+  border-radius: 10px !important;
+  border-right: none !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  box-shadow: none !important;
+}
+header .btn {
+  background-color: #fff;
+  color: #faa21b;
+  border: black solid 1px !important;
+  border-radius: 10px !important;
+  border-left: none !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  box-shadow: none !important;
+}
+header .btn:hover {
+  background-color: #faa21b;
+  color: #231f20;
+}
+header ul.navbar-nav li a {
+  color: #fff !important;
+  transition: 0.4s;
+}
+header ul.navbar-nav .nav-link {
+  padding: 0 1rem !important;
+}
+header ul.navbar-nav li a:hover {
+  color: #faa21b !important;
+}
+
+footer {
+  border-top: #faa21b solid 5px;
+  background-color: #474747;
+}
+footer h5 {
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+footer a {
+  color: inherit;
+  font-size: 12px;
+  text-decoration: none;
+  transition: all 0.4s;
+}
+
+footer a:hover,
+a:focus {
+  text-decoration: none;
+  color: #faa21b;
+}
+
+footer .form-control {
+  background: #212529;
+  border-color: #545454;
+}
+
+footer .form-control:focus {
+  background: #212529;
+}
+footer img {
+  width: 30%;
+  padding-bottom: 5px;
+}
