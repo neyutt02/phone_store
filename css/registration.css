@@ -1,9 +1,4 @@
-.contain {
-  width: 90%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
+
 .main-register {
   background-image: url(../image/iPhone_11_home.png);
   background-size: cover;

@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Giỏ Hàng</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+      integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/cart.css" />
+    <link rel="stylesheet" href="../css/header&footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- header  -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <img src="../image/logo.png" alt="" />
+          <div class="contain">
+            <h5>Giỏ Hàng</h5>
+            <form class="form-inline my-2 my-lg-0">
+              <input
+                class="form-control"
+                type="search"
+                placeholder="Tìm kiếm..."
+                aria-label="Search"
+              />
+              <button class="btn btn-style mr-sm-4 my-2 my-sm-0" type="submit">
+                <div class="fa fa-search"></div>
+              </button>
+            </form>
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown user">
+                <a
+                  class="nav-link"
+                  href="./user.html"
+                  role="button"
+                  id="dropdownMenuLink"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  ><i class="fas fa-user"></i>&nbsp; User</a
+                >
+                <div
+                  class="dropdown-menu dropdown-menu-right"
+                  aria-labelledby="dropdownMenuLink"
+                >
+                  <a class="dropdown-item" href="../html/user-detail"
+                    >Thông Tin Tài Khoản</a
+                  >
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="../html/index.html"
+                    >Đăng Xuất</a
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- End header  -->
+
+    <!-- main cart  -->
+    <div class="main-cart">
+      <div class="container">
+        <ul class="list-items-added">
+          <li class="flex" style="align-items: center; text-align: center; justify-content: space-between; margin: 10px 0;">
+            <div class="check-items" style="width: 4%;">
+              <input type="checkbox" />
+            </div>
+            <div class="items-image" style="width: 9%;">
+              <span>Sản Phẩm</span>
+            </div>
+            <div class="items-name" style="width: 30%;">
+              <span></span>
+            </div>
+            <div class="unit-price" style="width: 14%;">
+              <span>Đơn giá</span>
+            </div>
+            <div class="number-of-items" style="width: 14%;">
+              <span>Số Lượng</span>
+            </div>
+            <div class="" style="width: 14%;">
+              <span>Số Tiền</span>
+            </div>
+            <div class="" style="width: 9%;">
+              <span>Thao Tác</span>
+            </div>
+          </li>
+          <li class="flex" style="align-items: center; text-align: center; justify-content: space-between;">
+            <div class="check-items" style="width: 4%;">
+              <input type="checkbox" />
+            </div>
+            <div class="items-image" style="width: 9%;">
+              <img src="../image/SsS25detail.jpg" alt="" />
+            </div>
+            <div
+              class="items-name"
+              style="width: 30%;; text-align: left"
+            >
+              <span>Điện thoại Samsung Galaxy A52s 5G 128GB</span>
+            </div>
+            <div class="unit-price" style="width: 14%;">
+              <span>8.900.000₫</span>
+            </div>
+            <div class="number-of-items" style="width: 14%;">
+              <button><i class="fas fa-minus"></i></button>
+              <input type="text" name="" id="" value="1" />
+              <button><i class="fas fa-plus"></i></button>
+            </div>
+            <div class="amount-of-money" style="width: 14%;">
+              <span>8.900.000₫</span>
+            </div>
+            <div class="" style="width: 9%;">
+              <button class="del">Xoá</button>
+            </div>
+          </li>
+          <li class="flex" style="align-items: center; text-align: center; justify-content: space-between;">
+            <div class="check-items" style="width: 4%;">
+              <input type="checkbox" />
+            </div>
+            <div class="items-image" style="width: 9%;">
+              <img src="../image/SsS25detail.jpg" alt="" />
+            </div>
+            <div
+              class="items-name"
+              style="width: 30%;; text-align: left"
+            >
+              <span>Điện thoại Samsung Galaxy A52s 5G 128GB</span>
+            </div>
+            <div class="unit-price" style="width: 14%;">
+              <span>8.900.000₫</span>
+            </div>
+            <div class="number-of-items" style="width: 14%;">
+              <button><i class="fas fa-minus"></i></button>
+              <input type="text" name="" id="" value="1" />
+              <button><i class="fas fa-plus"></i></button>
+            </div>
+            <div class="amount-of-money" style="width: 14%;">
+              <span>8.900.000₫</span>
+            </div>
+            <div class="" style="width: 9%;">
+              <button class="del">Xoá</button>
+            </div>
+          </li>
+          <li class="flex" style="align-items: center; text-align: center; justify-content: space-between;">
+            <div class="check-items" style="width: 4%;">
+              <input type="checkbox" />
+            </div>
+            <div class="items-image" style="width: 9%;">
+              <img src="../image/SsS25detail.jpg" alt="" />
+            </div>
+            <div
+              class="items-name"
+              style="width: 30%;; text-align: left"
+            >
+              <span>Điện thoại Samsung Galaxy A52s 5G 128GB</span>
+            </div>
+            <div class="unit-price" style="width: 14%;">
+              <span>8.900.000₫</span>
+            </div>
+            <div class="number-of-items" style="width: 14%;">
+              <button><i class="fas fa-minus"></i></button>
+              <input type="text" name="" id="" value="1" />
+              <button><i class="fas fa-plus"></i></button>
+            </div>
+            <div class="amount-of-money" style="width: 14%;">
+              <span>8.900.000₫</span>
+            </div>
+            <div class="" style="width: 9%;">
+              <button class="del">Xoá</button>
+            </div>
+          </li>
+          <li class="flex" style="align-items: center; text-align: center; justify-content: space-between;">
+            <div class="check-items" style="width: 4%;">
+              <input type="checkbox" />
+            </div>
+            <div class="items-image" style="width: 9%;">
+              <img src="../image/SsS25detail.jpg" alt="" />
+            </div>
+            <div
+              class="items-name"
+              style="width: 30%;; text-align: left"
+            >
+              <span>Điện thoại Samsung Galaxy A52s 5G 128GB</span>
+            </div>
+            <div class="unit-price" style="width: 14%;">
+              <span>8.900.000₫</span>
+            </div>
+            <div class="number-of-items" style="width: 14%;">
+              <button><i class="fas fa-minus"></i></button>
+              <input type="text" name="" id="" value="1" />
+              <button><i class="fas fa-plus"></i></button>
+            </div>
+            <div class="amount-of-money" style="width: 14%;">
+              <span>8.900.000₫</span>
+            </div>
+            <div class="" style="width: 9%;">
+              <button class="del">Xoá</button>
+            </div>
+          </li>
+          <li class="flex" style="align-items: center; text-align: center; justify-content: space-between;">
+            <div class="check-items" style="width: 4%;">
+              <input type="checkbox" />
+            </div>
+            <div class="items-image" style="width: 9%;">
+              <img src="../image/SsS25detail.jpg" alt="" />
+            </div>
+            <div
+              class="items-name"
+              style="width: 30%;; text-align: left"
+            >
+              <span>Điện thoại Samsung Galaxy A52s 5G 128GB</span>
+            </div>
+            <div class="unit-price" style="width: 14%;">
+              <span>8.900.000₫</span>
+            </div>
+            <div class="number-of-items" style="width: 14%;">
+              <button><i class="fas fa-minus"></i></button>
+              <input type="text" name="" id="" value="1" />
+              <button><i class="fas fa-plus"></i></button>
+            </div>
+            <div class="amount-of-money" style="width: 14%;">
+              <span>8.900.000₫</span>
+            </div>
+            <div class="" style="width: 9%;">
+              <button class="del">Xoá</button>
+            </div>
+          </li>
+          <li class="flex" style="align-items: center; text-align: center; justify-content: space-between;">
+            <div class="check-items" style="width: 4%;">
+              <input type="checkbox" />
+            </div>
+            <div class="items-image" style="width: 9%;">
+              <img src="../image/SsS25detail.jpg" alt="" />
+            </div>
+            <div
+              class="items-name"
+              style="width: 30%;; text-align: left"
+            >
+              <span>Điện thoại Samsung Galaxy A52s 5G 128GB</span>
+            </div>
+            <div class="unit-price" style="width: 14%;">
+              <span>8.900.000₫</span>
+            </div>
+            <div class="number-of-items" style="width: 14%;">
+              <button><i class="fas fa-minus"></i></button>
+              <input type="text" name="" id="" value="1" />
+              <button><i class="fas fa-plus"></i></button>
+            </div>
+            <div class="amount-of-money" style="width: 14%;">
+              <span>8.900.000₫</span>
+            </div>
+            <div class="" style="width: 9%;">
+              <button class="del">Xoá</button>
+            </div>
+          </li>
+          <li class="flex" style="align-items: center; text-align: center; justify-content: space-between;">
+            <div class="check-items" style="width: 4%;">
+              <input type="checkbox" />
+            </div>
+            <div class="items-image" style="width: 9%;">
+              <img src="../image/SsS25detail.jpg" alt="" />
+            </div>
+            <div
+              class="items-name"
+              style="width: 30%;; text-align: left"
+            >
+              <span>Điện thoại Samsung Galaxy A52s 5G 128GB</span>
+            </div>
+            <div class="unit-price" style="width: 14%;">
+              <span>8.900.000₫</span>
+            </div>
+            <div class="number-of-items" style="width: 14%;">
+              <button><i class="fas fa-minus"></i></button>
+              <input type="text" name="" id="" value="1" />
+              <button><i class="fas fa-plus"></i></button>
+            </div>
+            <div class="amount-of-money" style="width: 14%;">
+              <span>8.900.000₫</span>
+            </div>
+            <div class="" style="width: 9%;">
+              <button class="del">Xoá</button>
+            </div>
+          </li>
+        </ul>
+        <div class="payment flex">
+          <div style="align-items: center">
+            <input type="checkbox" id="check" />
+            <span>Chọn tất cả (..)</span>
+          </div>
+          <div class="buy-detail">
+            <span
+              >Tổng thanh toán (0 sản phẩm):
+              <span style="color: #faa21b">0₫</span></span
+            >
+            <button class="btn-buy">Mua Hàng</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end main cart  -->
+
+    <!-- footer  -->
+    <footer class="w-100 py-4 flex-shrink-0">
+      <div class="container py-4">
+        <div class="row gy-4 gx-5">
+          <div class="col-lg-4 col-md-6">
+            <img src="../image/logo.png" alt="" />
+            <p class="small text-muted">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt.
+            </p>
+            <p class="small text-muted mb-0">
+              &copy; Copyrights. All rights reserved.
+              <a class="text-warning" href="#">PPhone.vn</a>
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-white mb-3">Chăm Sóc Khách Hàng</h5>
+            <ul class="list-unstyled text-muted">
+              <li><a href="#">Trung Tâm Trợ Giúp</a></li>
+              <li><a href="#">Hướng Dẫn Mua Hàng</a></li>
+              <li><a href="#">Thanh Toán</a></li>
+              <li><a href="#">Vận Chuyển</a></li>
+              <li><a href="#">Trả Hàng & Hoàn Tiền</a></li>
+              <li><a href="#">Chính Sách Bảo Hành</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <h5 class="text-white mb-3">Về PPhone</h5>
+            <ul class="list-unstyled text-muted">
+              <li><a href="#">Giới Thiệu</a></li>
+              <li><a href="#">Điều Khoản PPhone</a></li>
+              <li><a href="#">Chính Sách Bảo Mật</a></li>
+              <li><a href="#">Flash Sales</a></li>
+              <li><a href="#">Liên hệ</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-white mb-3">Theo dõi PPhone Trên</h5>
+            <ul class="list-unstyled text-muted list-inline">
+              <li class="">
+                <a href="#"
+                  ><i class="fab fa-facebook-f"></i> &nbsp; PPhone - Điện thoại
+                  chính hãng</a
+                >
+              </li>
+              <li class="">
+                <a href="#"><i class="fab fa-instagram"></i> &nbsp; _pphonee</a>
+              </li>
+              <li class="">
+                <a href="#"><i class="fab fa-linkedin"></i> &nbsp; PPhone</a>
+              </li>
+              <li class="">
+                <a href="#"
+                  ><div class="fa fa-phone"></div>
+                  &nbsp; 035 5334 337</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer  -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.1.1/js/all.js"
+      integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

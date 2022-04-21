@@ -1,0 +1,93 @@
+.main-user-profile {
+  background-color: #f9f9f9;
+}
+.main-user-profile .container {
+  justify-content: space-between;
+  padding: 20px;
+}
+.main-user-profile .user-activities {
+  width: 15%;
+}
+.main-user-profile .user-activities .flex {
+  align-items: center;
+  text-align: center;
+  padding: 14px 0;
+  border-bottom: 1px solid #47474724;
+}
+.main-user-profile .user-activities .user-image {
+  width: 30%;
+}
+.main-user-profile .user-activities .user-image span {
+  font-size: 25px;
+  color: #474747;
+}
+/* .main-user-profile .user-activities .user-image span::after {
+  position: absolute;
+  content: '';
+  top: 0%;
+  left:-40%;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #474747;
+  border-radius: 50%;
+} */
+.main-user-profile .user-activities .user-name {
+  width: 70%;
+}
+.main-user-profile .user-activities .user-name small {
+    color: #47474794;
+}
+.main-user-profile .user-activities ul {
+    list-style: none;
+    padding-top: 25px;
+}
+.main-user-profile .user-activities ul li {
+    color: #474747;
+    font-size: 13px;
+    padding: 5px;
+}
+
+.main-user-profile .user-profile-contain {
+  width: 80%;
+  padding: 10px 30px 30px 30px;
+  background-color: #fff;
+}
+.main-user-profile .user-profile-contain .heading {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #47474724;
+}
+.main-user-profile .user-profile-contain .label {
+  width: 15%;
+  text-align: end;
+  font-size: 13px;
+}
+.main-user-profile .user-profile-contain .detail {
+  width: 85%;
+  padding-left: 20px;
+  font-size: 13px;
+}
+.main-user-profile .user-profile-contain .flex {
+  align-items: center;
+  padding: 10px 0;
+}
+.main-user-profile .user-profile-contain input.name {
+  padding: 5px 10px;
+  width: 50%;
+  border-radius: 5px;
+  border: 1px solid #474747;
+}
+.main-user-profile .user-profile-contain input.form-style {
+  margin-left: 10px;
+}
+.main-user-profile .user-profile-contain button.btn-save {
+  padding: 5px 25px;
+  background-color: #faa21b;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+.main-user-profile .user-profile-contain button.btn-save:hover {
+  color: #fff;
+}

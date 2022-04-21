@@ -1,4 +1,18 @@
-
+header .dropdown-menu {
+  top: 150%;
+}
+.contain {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex {
+  display: flex;
+}
+.flexwrap {
+  flex-wrap: wrap;
+}
 header h5 {
   font-size: 20px;
   color: #fff;
@@ -50,16 +64,117 @@ header .btn:hover {
   background-color: #faa21b;
   color: #231f20;
 }
-header ul.navbar-nav li a {
+header ul.navbar-nav li a.nav-link,
+header .dropdown a.nav-link {
   color: #fff !important;
   transition: 0.4s;
 }
 header ul.navbar-nav .nav-link {
   padding: 0 1rem !important;
 }
-header ul.navbar-nav li a:hover {
+header ul.navbar-nav li a:hover,
+header .dropdown a:hover {
   color: #faa21b !important;
 }
+header a.dropdown-item {
+  color: #474747 !important;
+  font-size: 13px;
+}
+
+
+/* CSS cart-dropdown */
+header li.cart {
+  position: relative;
+}
+header li.cart:hover .cart-dropdown {
+  visibility: visible;
+}
+header .cart-dropdown {
+  position: absolute;
+  content: "";
+  top: 150%;
+  right: 0;
+  width: 400px;
+  font-size: 15px;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 2px 1px #a2a2a2;
+  z-index: 10;
+  visibility: hidden;
+  transition: 0.2s;
+}
+header .cart-dropdown ul.list-items-added {
+  padding-left: 0;
+}
+header .cart-dropdown ul.list-items-added li {
+  padding: 20px 10px;
+  margin: 10px 0;
+  background-color: #fff;
+  border-radius: 5px;
+}
+header .cart-dropdown ul.list-items-added .check-items {
+  padding: 3px;
+}
+header .cart-dropdown ul.list-items-added .items-image {
+  width: 100px;
+}
+header .cart-dropdown ul.list-items-added .items-image img {
+  width: 100%;
+}
+header .cart-dropdown ul.list-items-added input {
+  width: 3rem;
+  text-align: center;
+}
+header .cart-dropdown ul.list-items-added button {
+  background-color: #fff;
+  color: #474747;
+  border: 1px solid #474747;
+  border-radius: 2px;
+  font-size: 13px;
+}
+header .cart-dropdown ul.list-items-added .amount-of-money {
+  color: #faa21b;
+}
+header .cart-dropdown ul.list-items-added button.del {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+header .cart-dropdown ul.list-items-added button.del:hover {
+  color: #faa21b;
+}
+header .cart-dropdown .payment {
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #fff;
+  border-radius: 5px;
+}
+header .cart-dropdown .payment span {
+  margin-right: 10px
+}
+header .cart-dropdown .payment .btn-buy {
+  margin: 5px 0;
+  padding: 7px 50px;
+  color: #474747;
+  background-color: #faa21b;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  /* transition: 0.4s; */
+}
+header .cart-dropdown .payment .btn-buy:hover {
+  color: #fff;
+}
+header .cart-dropdown .buy-detail {
+  position: sticky;
+  bottom: 0;
+}
+/* CSS cart-dropdown */
 
 footer {
   border-top: #faa21b solid 5px;
